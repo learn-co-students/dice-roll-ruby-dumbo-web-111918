@@ -3,5 +3,7 @@
 # Feel free to google "how to generate a random number in ruby"
 
 def roll
-  # code goes here
+  array = [1, 2, 3, 4, 5, 6]
+  num = array[rand(array.length)]
+  num
 end
