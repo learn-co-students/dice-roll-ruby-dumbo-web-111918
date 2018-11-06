@@ -2,6 +2,13 @@
 
 # Feel free to google "how to generate a random number in ruby"
 
+
+#def roll
+#  # code goes here
+#  rand(1..6)
+#end
+
 def roll
-  # code goes here
+  numbers = [*1..6] # need *1..6 to "splat" a range?
+  numbers.sample # default will return 1, if adding an argument will return result as an array
 end
