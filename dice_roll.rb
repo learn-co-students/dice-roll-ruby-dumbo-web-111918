@@ -4,4 +4,6 @@
 
 def roll
   # code goes here
+  rng = (1..6).to_a;
+  rng[rand(6)]
 end
